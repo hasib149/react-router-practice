@@ -5,9 +5,9 @@ import Footer from "../Footer/Footer";
 import "../Root.css";
 const Root = () => {
   return (
-    <div className="flex flex-col space-y-8 items-center justify-center h-screen   ">
+    <div className="flex flex-col space-y-8 items-center justify-center    ">
       <Header></Header>
-      <Outlet c></Outlet>
+      <Outlet></Outlet>
       <Footer></Footer>
     </div>
   );
